@@ -1,0 +1,51 @@
+/*******reset*******/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/** fonte 
+font-family: 'Karma', serif;
+font-family: 'Nunito', sans-serif;
+**/
+
+/** alt**/
+
+body {
+  background: rgb(145, 226, 148);
+  background: radial-gradient(circle, rgba(145, 226, 148, 1) 0%, rgba(246, 246, 246, 1) 99%);
+}
+
+h1,
+h2,
+a {
+  font-family: "Nunito", sans-serif;
+  color: #002aff;
+  text-decoration: none;
+  font-size: 2cqw;
+}
+p {
+  font-family: "Karma", serif;
+  color: #4e4e4e;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 70px;
+  align-items: center;
+  min-height: 155px;
+  padding: 0px 60px;
+  list-style-type: none;
+}
+
+a:hover,
+a:active,
+a:visited {
+  text-decoration: underline;
+}
