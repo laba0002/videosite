@@ -29,7 +29,8 @@ a {
   text-decoration: none;
   font-size: 2cqw;
 }
-p {
+p,
+span {
   font-family: "Karma", serif;
   color: #4e4e4e;
 }
@@ -48,4 +49,38 @@ a:hover,
 a:active,
 a:visited {
   text-decoration: underline;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+img,
+span {
+  grid-area: 1 / 1;
+}
+
+span {
+  background-color: white;
+  padding: 30px;
+  font-size: 3cqw;
+}
+
+span:hover {
+  opacity: 85%;
+  cursor: pointer;
 }
